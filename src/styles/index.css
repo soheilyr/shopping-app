@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 3px
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background-color: #e2e2e2
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #787878
+    }
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
